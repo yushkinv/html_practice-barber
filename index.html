@@ -5,8 +5,144 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&family=Lora&family=Oxygen&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="header">        
+        <a class="logo logo_small" href="#">
+            <div class="logo__inner">
+                <img class="logo__image" src="images/scissors.svg" alt="logo">
+                <span class="logo__text">arber</span>
+            </div>  
+        </a>
+        <div class="header__inner">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#history">History</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#service">Service</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#gallary">Gallary</a>
+                    </li>
+                </ul>
+            </nav>        
+            <div class="header__buttons">
+                <a class="button__link" href="#">
+                    <img class="button__image" src="images/Profile.svg" alt="Profile">
+                </a>
+                <a class="button__link" href="#">
+                    <img class="button__image" src="images/Notification.svg" alt="Notification">
+                </a>
+                <a class="button__appointment" href="#">Appointment</a>            
+            </div>
+        </div>        
+    </header>
+    <div class="intro">
+        <div class="description">
+            <h1 class="description__title"> <span>Hairstyle</span> Reflects The Personality Inside You</h1>
+            <p class="description__subtitle description__subtitle-intro">It is a long established fact that a reader will be distracted by the readable content of a page when looking at.</p>            
+            <a class="description__link" href="#">Get Started</a>
+        </div>
+        <img class="intro__image" src="images/intro_img.jpg" alt="image">
+    </div>
+    <div class="history" id="history">
+        <img class="history__image" src="images/img_2nd_block.jpg" alt="image">
+        <div class="description">
+            <h2 class="description__title description__title-history">Our <span>History</span></h2>
+            <p class="description__subtitle description__subtitle-history1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at.</p>
+            <p class="description__subtitle description__subtitle-history2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at.</p>
+            <a class="description__link" href="#">Learn more</a>
+        </div>
+    </div>
+    <div class="service" id="service">
+        <h2 class="service__title">Services We <br><span>Provide</span></h2>
+        <div class="service__cards">
+            <div class="card">
+                <div class="card__img-holder">
+                    <img class="card__img" src="images/scissors_2nd.svg" alt="">
+                </div>
+                <h3 class="card__title">Hair Cut</h3>
+                <p class="card__subtitle">long established fact that a reacted by the readable content of
+                    hen looking at.</p>
+            </div>        
+            <div class="card">
+                <div class="card__img-holder">
+                    <img class="card__img" src="images/electric-razor.svg" alt="">
+                </div>                
+                <h3 class="card__title">Beard Cut</h3>
+                <p class="card__subtitle">long established fact that a reacted by the readable content of
+                    hen looking at.</p>
+            </div>
+            <div class="card">
+                <div class="card__img-holder">
+                    <img class="card__img" src="images/cleanser.svg" alt="">
+                </div>                
+                <h3 class="card__title">Facial Pack</h3>
+                <p class="card__subtitle">long established fact that a reacted by the readable content of
+                    hen looking at.</p>
+            </div>
+        </div>
+    </div>
+    <div class="gallery" id="gallary">
+        <h2 class="gallery__title">Our <span>Gallery</span></h2>
+        <div class="gallery__inner">
+            <div class="gallery__frame">
+                <img class="gallery__foto" src="images/foto_1.jpg" alt="foto">
+            </div>
+            <div class="gallery__frame">
+                <img class="gallery__foto" src="images/foto_2.jpg" alt="foto">
+            </div>
+            <div class="gallery__frame">
+                <img class="gallery__foto" src="images/foto_3.jpg" alt="foto">
+            </div>
+            <div class="gallery__frame">
+                <img class="gallery__foto" src="images/foto_4.jpg" alt="foto">
+            </div>
+            <div class="gallery__frame">
+                <img class="gallery__foto" src="images/foto_5.jpg" alt="foto">
+            </div>
+            <div class="gallery__frame">
+                <img class="gallery__foto" src="images/foto_6.jpg" alt="foto">
+            </div> 
+            <a class="gallery__link" href="#">View All</a>           
+        </div>        
+    </div>
+    <footer class="footer">
+        <a class="logo logo_big" href="#">
+            <div class="logo__inner logo__inner_big">
+                <img class="logo__image logo__image_big" src="images/scissors_big.svg" alt="logo">
+                <div class="logo__text logo__text_big">arber</div>
+            </div>  
+        </a>
+        <p class="footer__subtitle">It is a long established fact that a reader will be distracted by the readable </p>
+        <div class="social">
+            <a class="social__link" href="#" >
+                <div class="circle">
+                    <img class="social__img" src="images/facebook.svg" alt="">
+                </div>
+            </a>
+            <a class="social__link" href="#" >
+                <div class="circle">
+                    <img class="social__img" src="images/tvit.png" alt="">
+                </div>
+            </a>
+            <a class="social__link" href="#" >
+                <div class="circle">
+                    <img class="social__img" src="images/google_plus.png" alt="">
+                </div>
+            </a>            
+        </div>
+        <hr class="footer__line">
+    </footer>    
 </body>
 </html>
